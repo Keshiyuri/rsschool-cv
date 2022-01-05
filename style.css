@@ -1,0 +1,75 @@
+/* #8bc0a2 - зеленый фон 
+ #2e3154 - синий подвал
+ #1d1f2f - тень подвал, хедер
+ #ecd4b9 - текст мейн
+ #ffda8f - желтый хедер
+ #f8b477 - бежевый хедер
+ #f47757 - рыжий хедер */
+
+.gobasement {
+    width: 100%;
+    height: 90px;
+    background-color: #2e3154;
+    text-align: center;
+    text-shadow: 2px 2px 2px #1d1f2f;
+    color: #ffda8f;
+}
+
+.telo {
+    color: #ecd4b9;
+    flex-grow: 1;
+}
+
+.golova {
+    color: #2e3154;
+    width: 100%;
+    height: 230px;
+    background: linear-gradient( 0deg, rgba(29, 31, 47, 1) 0%, rgba(255, 218, 143, 1) 11%, rgba(248, 180, 119, 1) 68%, rgba(244, 119, 87, 1) 100%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    background-color: #1d1f2f;
+    height: 100vh;
+    margin: 0px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    position: absolute;
+    height: 180px;
+    top: 8px;
+    right: 10px;
+}
+
+.dviz {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    margin-right: 200px;
+    text-align: right;
+}
+
+h1 {
+    font-size: 70px;
+    background: linear-gradient(135deg, #ffda8f 20%, #f47757 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ya-ystala {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    text-align: center;
+}
+
+.caramelos {
+    height: 35vw;
+    display: block;
+    margin: auto;
+}
